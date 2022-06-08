@@ -16,7 +16,7 @@
     <TextArea fx:id="textField" editable="false" VBox.vgrow="ALWAYS"/>
     <HBox spacing="20">
         <TextField fx:id="userText" HBox.hgrow="ALWAYS"/>
-        <Button text="Check" defaultButton="true" onAction="#clickCheckButton"/>
+        <Button text="Sent" defaultButton="true" onAction="#clickCheckButton"/>
     </HBox>
 
 
