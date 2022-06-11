@@ -27,7 +27,7 @@ public class Controller {
         String formattedDate= dateFormat.format(date);
 
         final String text = userText.getText();
-        textField.appendText(formattedDate+ "   "+"username : "+text+"\n");
+        textField.appendText(formattedDate+ "   "+"username: "+text+"\n");
         userText.clear();
         userText.requestFocus();
 
